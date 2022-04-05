@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-
 import { products } from '../products';
 
 @Component({
@@ -9,7 +8,6 @@ import { products } from '../products';
 })
 export class ProductListComponent {
   products = products;
-
  buy() {
     window.alert('Buy the best product!');
   }
@@ -19,7 +17,6 @@ export class ProductListComponent {
   welcome(){
     window.alert('Thanks for visiting ..Come Again!!!');
   }
-
   onNotify(){
     window.alert('Notification');
   }
