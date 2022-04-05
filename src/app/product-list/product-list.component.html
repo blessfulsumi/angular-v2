@@ -1,0 +1,16 @@
+<h3>Welcome to Mobile World!!!!!!</h3>
+<u> Available Models:</u>
+<div *ngFor="let product of products">
+  <h4>
+    <br />Model {{ product.id }} : <a [title]="product.name + ' model'">{{ product.name }}</a
+    ><br />
+    <h5 *ngIf="product.description">Description:{{ product.description }}</h5>
+  </h4>
+
+  <button type="button" (click)="buy()">Buy</button>  click
+  here-->
+  <button type="button" (click)="userReview()">Comment</button>
+  
+</div><br>
+
+<button type="button" (click)="welcome()">Buy</button>
